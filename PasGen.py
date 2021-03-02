@@ -2,7 +2,7 @@ import random
 import subprocess, platform
 import colorama
 from colorama import Fore, Back, Style
-chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+
 
 colorama.init()
 
