@@ -1,6 +1,7 @@
 # PasGen
 
-##Install
+## Install
+
     $ git install https://github.com/Mukhailo/PasGen
     $ cd PasGen
     $ pip3 install -r requirements
