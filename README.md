@@ -1,4 +1,5 @@
 # PasGen
+Random password generator
 
 ## Install
 
