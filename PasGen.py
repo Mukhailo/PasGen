@@ -46,6 +46,7 @@ def symbols(what1, what2):
         for x in range(what2):
             passwords += random.choice(char1)
         print('\n',passwords)
+        
 #A function that generates a password from words
 def words(what1, what2):
     char1 = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -54,6 +55,7 @@ def words(what1, what2):
         for x in range(what2):
             passwords += random.choice(char1)
         print('\n',passwords)
+
 # A function that generates a password from nambers
 def nambers(what1, what2):
     char1 = '1234567890'
@@ -62,6 +64,7 @@ def nambers(what1, what2):
         for x in range(what2):
             passwords += random.choice(char1)
         print('\n',passwords)
+
 # A function that generates a password from words + nambers
 def mixed1(what1, what2):
     char1 = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
@@ -70,6 +73,7 @@ def mixed1(what1, what2):
         for x in range(what2):
             passwords += random.choice(char1)
         print('\n',passwords)
+
 # A function that generates a password from words + nambers + symbols
 def mixed2(what1, what2):
     char1 = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
@@ -107,6 +111,10 @@ elif what == 4:
         mixed1(what1, what2)
     elif what4 == 2:
         mixed2(what1,what2)
+if what > 4 or what < 1:
+    print('You have entered an incorrect number')
+
+
 
 
 
