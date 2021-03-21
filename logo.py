@@ -17,3 +17,10 @@ def logo():
         4.Mixed
         """)
 logo()
+
+def logo2():
+    print(logo_add(),
+        """
+        1.Words + Nambers
+        2.Symbols + Words + Nambers
+        """)

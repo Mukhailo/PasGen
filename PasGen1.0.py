@@ -119,19 +119,3 @@ elif what == 4:
 
 if what > 4 or what < 1:
     print('You have entered an incorrect number')
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
