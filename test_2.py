@@ -20,11 +20,8 @@ what = int(input('Enter namber: '))
 
 class Main():
     
-    def __init__(self,char):
+    def passw(self, char):
         self.char = char
-
-    @staticmethod
-    def passw():
         what1 = int(input(f'{Fore.RED}How many passwords do you want?: '))
         what2 = int(input(f'{Fore.RED}What password length do you want?: '))
         for i in range(what1):
